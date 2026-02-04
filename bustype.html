@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <!--horizontal form-->
+        <form action="success.html" method="post">
+            <table align="center" cellspacing="5" cellpading="10" border="1" width="60%">
+                <tr>
+                    <td colspan="2" align="center">
+                        <h3>search bus</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="source">form</label></td>
+                    <td><input type="text" name="source" id="source"</td>
+                </tr>
+                <tr>
+                    <td><label for="destination">to</label></td>
+                    <td><input type="text" name="destination" id="destination"</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="journey_date"><select journey date></select></label>
+                    </td>
+                    <td>
+                        <input type="date" id="journey_date" name="journey_date">
+                    </td>
+                </tr>
+                <tr>
+                <td>
+                    <label for="seates">seates</label>
+                </td>
+                <td>
+                    <select name="seates" id="seates" required>
+                        <option value="">select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bustype">select type</label>
+                    </td>
+                    <td>
+                        <label for="nonac">
+                            <input type="radio" id="nonac" name="bustype" value="1">nonac
+                        </label>
+                        <label for="ac">
+                            <input type="radio" id="ac" name="bustype" value="2">ac
+                        </label>
+                        <label for="sleeper">
+                            <input type="radio" id="sleeper" name="bustype" value="3">sleeper
+                        </label>
+                        <label for="ac_sleeper">
+                            <input type="radio" id="ac_sleeper" name="bustype" value="4">ac_sleeper
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">select gender</label>
+                    </td>
+                    <td>
+                        <label for="male">
+                            <input type="radio" name="gender" id="male">male
+                        </label>
+                        <label for="female">
+                            <input type="radio" name="gender" id="male">female
+                        </label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="search">
+                        <input type="reset" value="clear all">
+
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
